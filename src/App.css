@@ -1,5 +1,26 @@
 .App {
   text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stopwatch {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 10px;
+}
+
+.time-display {
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 25px;
+  margin-bottom: 30px;
 }
 
 .App-logo {
